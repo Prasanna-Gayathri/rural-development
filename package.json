@@ -1,0 +1,15 @@
+{
+  "name": "village-connect-frontend",
+  "version": "1.0.0",
+  "description": "Village Connect Frontend",
+  "scripts": {
+    "start": "live-server"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "main": "about-us.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

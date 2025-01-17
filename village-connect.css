@@ -1,0 +1,123 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  h2 {
+    font-size: 28px;
+    color: #4CAF50;
+    margin-top: 20px;
+  }
+  
+  h3 {
+    font-size: 24px;
+    color: #4CAF50;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Service Section */
+  .services {
+    margin: 20px;
+  }
+  
+  .service {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service h3 {
+    margin-top: 0;
+  }
+  
+  .service p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Request Service Section */
+  .request-service, .contact-us {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .request-service ol {
+    padding-left: 20px;
+    list-style-type: decimal;
+  }
+  
+  .request-service li {
+    margin-bottom: 10px;
+  }
+  
+  .contact-us {
+    margin-top: 20px;
+  }
+  
+  .contact-us p {
+    font-size: 16px;
+  }
+  
+  .contact-us a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  .contact-us a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Utility classes */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 28px;
+    }
+  
+    .service {
+      padding: 15px;
+    }
+  
+    .request-service, .contact-us {
+      padding: 15px;
+    }
+  
+    .services, .contact-us, .request-service {
+      margin: 10px;
+    }
+  }
+  

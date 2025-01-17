@@ -1,0 +1,55 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    background: url('welcome.jpeg') no-repeat center center fixed; /* Add image as background */
+    background-size: cover; /* Ensure the image covers the full viewport */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    color: white;
+    padding: 20px;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for form */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #c9302c;
+}

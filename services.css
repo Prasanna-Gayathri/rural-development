@@ -1,0 +1,35 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    background: url('login.jpeg') no-repeat center center fixed; /* Add image as background */
+    background-size: cover; /* Ensure the image covers the full viewport */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.services-container {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #d9534f;
+}
+
+.service-options button {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    margin: 15px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.service-options button:hover {
+    transform: scale(1.1);
+    background-color: #c9302c;
+}

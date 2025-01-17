@@ -1,0 +1,42 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    background: url('village.jpg') no-repeat center center fixed; /* Set village.jpeg as background */
+    background-size: cover; /* Ensure the image covers the full viewport */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #e9736f;
+    margin-top: 50px;
+}
+
+p {
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+button {
+    padding: 15px 25px;
+    background-color: #d9534f;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+    margin-top: 30px;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background-color: #c9302c;
+}
